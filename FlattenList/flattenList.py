@@ -1,5 +1,5 @@
 #complexity O(n+k) where n is number of total elements, k is number of nested lists
-#[[1,2],[3,4],5] -> n=5, k=2,
+#[[1,2],[3,4],5] -> n=5, k=2;;
 def flattenList(X):
     Y=[];
     for item in X:
